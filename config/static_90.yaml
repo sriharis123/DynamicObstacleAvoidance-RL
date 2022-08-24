@@ -1,0 +1,50 @@
+area:
+  x_max: 100
+  x_min: 0
+  y_max: 50
+  y_min: 0
+goal:
+  x_loc: 25
+  y_loc: 25
+obstacles:
+- acc_x: 0
+  acc_y: 0
+  centroid_x: 0
+  centroid_y: 25
+  dx: 0
+  dy: 50
+  orientation: 0
+  velocity_x: 0
+  velocity_y: 0
+- acc_x: 0
+  acc_y: 0
+  centroid_x: 100
+  centroid_y: 25
+  dx: 0
+  dy: 50
+  orientation: 0
+  velocity_x: 0
+  velocity_y: 0
+- acc_x: 0
+  acc_y: 0
+  centroid_x: 50
+  centroid_y: 0
+  dx: 100
+  dy: 0
+  orientation: 0
+  velocity_x: 0
+  velocity_y: 0
+- acc_x: 0
+  acc_y: 0
+  centroid_x: 50
+  centroid_y: 50
+  dx: 100
+  dy: 0
+  orientation: 0
+  velocity_x: 0
+  velocity_y: 0
+robot:
+  centroid_x: 80
+  centroid_y: 10
+  orientation: 90
+  velocity: 0
